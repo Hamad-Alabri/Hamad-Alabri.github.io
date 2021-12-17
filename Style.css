@@ -1,0 +1,146 @@
+html{
+	background: linear-gradient(grey,black);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#NavBar{
+	list-style-type: none;
+	background: linear-gradient(to right,#37d461, #2af5fb);
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border-radius: 5px;
+	position: sticky;
+	top: 3px;
+}
+
+li a{
+	color: #ffffff;
+	display: block;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-right: 1px solid black;
+	min-width: 80px;
+	font-family: 'Aldrich', sans-serif;
+}
+
+li a:hover{
+	background-color: #076300;
+	animation: NavBarGlowAnimation;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes NavBarGlowAnimation{
+	50% {text-shadow: 0px 0px 010px #eeff00;}
+}
+
+#Welcome{
+	text-align: center;
+	font-family: 'Aldrich', sans-serif;
+	color: #ffffff;
+}
+#ScalePic{
+	animation: ScaleAnimation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes ScaleAnimation{
+	50%{transform: scale(1.1,1.1);}
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to right,#37d461, #2af5fb);
+	justify-content: center;
+	justify-content: space-around;
+	height: 300px;
+	align-items: center;
+	border-radius: 15px;
+
+}
+.container div{
+	color: #ffffff;
+	background: linear-gradient(to right,#37d461, #2af5fb);;
+	border-radius: 15px;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+	margin: 5px;
+}
+
+#SearchBar{
+	color: #ffffff;
+	border: 1px solid;
+	padding: 5px;
+	background: linear-gradient(to right,#37d461, #2af5fb);
+	border-color: #00380f;
+	border-width: 5px;
+	border-radius: 15px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 270px;
+
+}
+
+#form{
+	color: #ffffff;
+	border: solid;
+	padding: 7px;
+	border-radius: 15px;
+	background: linear-gradient(to right,#37d461, #2af5fb);
+	font-family: 'Cabin', sans-serif;
+}
+
+#Submit{
+	font-family: 'Aldrich', sans-serif;
+	color: #ffffff;
+}
+
+#GameReview{
+	color: #ffffff;
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+}
+
+#GameTitle{
+	color: #ffffff;
+	font-family: 'Aldrich', sans-serif;
+}
+
+#Contact{
+	text-align: center;
+	font-family: 'Aldrich', sans-serif;
+	color: #ffffff;
+	text-align: left;
+}
+
+.fa-star{
+	color: #eeff00;
+}
+.fa-star-half{
+	color:  #eeff00;
+}
+.fa-twitter{
+	color: #00acee;
+}
+.fa-instagram{
+	color: #8a3ab9
+}
+.fa-youtube{
+	color: #FF0000;
+}
+.fa-reddit{
+	color: #ff4500 ;
+}

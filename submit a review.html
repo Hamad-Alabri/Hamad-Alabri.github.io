@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Submit a review</title>
+		<!-- meta tags --> 
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Games, Games Reviews, Reviews">
+		<meta name="description" content="This is a game critic website where you will find reviews on games">
+		<meta name="author" content="Hamad">
+		<meta name="viewport" content="width=device-width,initial-scae=1.0">
+		<!-- Font links -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Cabin&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<ul id="NavBar">
+			<li><a  href="index.html">Home</a></li>
+			<li><a  href="index.html">Reviews</a></li>
+			<li><a  href="submit a review.html">Submit a review</a></li>
+		</ul>
+
+		<h1 id="Submit">Submit a review</h1>
+
+		<form id="form">
+			<label for="first name">First name:</label>
+			<input type="text" id="first name" name="first name" placeholder="Jhon">
+			<br><br>
+
+			<label for="first last">Last name:</label>
+			<input type="text" id="first last" name="first last" placeholder="Smith">
+			<br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="user@example.com">
+			<br><br>
+
+			<label for="review">Your review of the game</label>
+			<input type="text" id="review" name="review" placeholder="Type your thoughts here">
+			<br><br>
+
+			<label for="recomend">Would you recommend this game to others? &nbsp</label>
+			<label for="yes">Yes</label>
+			<input type="radio" value="Yes" id="yes" name="recomend">
+			<label for="no">No</label>
+			<input type="radio" value="No" id="no" name="recomend">
+			<br><br>
+
+			<label for="Rdate">Date of review</label>
+			<input type="date" id="Rdate" name="Rdate" min="2021-01-01">
+			<br><br>
+
+			<label for="Ptimes">How many times have you replaed the game?</label>
+			<input type="number" id="Ptimes" name="Ptimes" min="1" value="1">
+			<br><br>
+
+			<label for="rating">Rate the game</label>
+			1<input type="range" id="rating" name="rating" steps="25" value="50">5
+			<br><br> 
+
+			<label for="Uphoto">Upoad a photo of the game</label>
+			<input type="file" id="Uphoto" name="Uphoto" accept=".png">
+			<br><br>
+
+			<input type="submit" style="background-color: #2af5fb;">
+			<input type="reset" style="background-color: #2af5fb;">
+
+		</form>
+	</body>
+</html>
